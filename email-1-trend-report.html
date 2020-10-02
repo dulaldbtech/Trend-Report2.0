@@ -33,6 +33,26 @@
             background-color: aqua;
             float: right;
         }
+        #banner {
+            background-image: url('./assets/Crème\ Brulee\ Latte.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 50px;
+            height: 300px;
+        }
+        #banner-text {
+            background-color: #3f3333;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            opacity: 0.6;
+            height: 50px;
+            padding: 20px 0 0 40px;
+            position: relative;
+            top: 230px;
+        }
         .body-text {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 16px;
@@ -59,6 +79,12 @@
             font-size: 18px;
             font-weight: bold;
             color: #6a6a6a;
+        }
+        .grid-img img {
+            border: 1px solid #3f3333;
+            -webkit-box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
+            -moz-box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
+            box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
         }
     </style>
 </head>
@@ -100,7 +126,11 @@
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <div id="banner"></div>
+                                                        <div id="banner">
+                                                            <div id="banner-text">
+                                                                Trends in Vegan Beverages
+                                                            </div>
+                                                        </div>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -174,42 +204,50 @@
                                             </tbody>
                                         </table>
                                         <!-- Grid Content -->
-                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <div class="grid-img"></div>
+                                                        <div class="grid-img">
+                                                            <img width="300px" src="./assets/Crème Brulee Latte.jpg" alt="" srcset="">
+                                                        </div>
                                                     </td>
                                                     <td>
-                                                        <p class="body-text">Consumers are increasingly aware of (hidden) sugars in their diet, and the subsequent health implications. We will show
+                                                        <p class="body-text" style="margin-left: 20px">Consumers are increasingly aware of (hidden) sugars in their diet, and the subsequent health implications. We will show
                                                         you our indulgent cookies with no added sugar and an ingredient proven to benefit the gut.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <p class="body-text">Our sunset cake already looks simply stunning, but it also hides a surprise. Wait until the webinar when all will be
+                                                        <p class="body-text" style="margin-right: 20px">Our sunset cake already looks simply stunning, but it also hides a surprise. Wait until the webinar when all will be
                                                         revealed!</p>
                                                     </td>
                                                     <td>
-                                                        <div class="grid-img"></div>
+                                                        <div class="grid-img">
+                                                            <img width="300px" src="./assets/Fried Egg Milk Tea.jpg" alt="" srcset="">
+                                                        </div>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="grid-img"></div>
+                                                        <div class="grid-img">
+                                                            <img width="300px" src="./assets/Raw Chocolate Tea.jpg" alt="" srcset="">
+                                                        </div>
                                                     </td>
                                                     <td>
-                                                        <p class="body-text">We will also take you on an adventure as we explore the tastes of Asia, so prepare for an extreme experience taking in
+                                                        <p class="body-text" style="margin-left: 20px">We will also take you on an adventure as we explore the tastes of Asia, so prepare for an extreme experience taking in
                                                         Vietnam, Thailand and more.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <p class="body-text">And with everyone staying at home more, we’ll present a simple way for your consumers to replicate their coffee shop
+                                                        <p class="body-text" style="margin-right: 20px">And with everyone staying at home more, we’ll present a simple way for your consumers to replicate their coffee shop
                                                         favourites from the comfort of their own kitchen.</p>
                                                     </td>
                                                     <td>
-                                                        <div class="grid-img"></div>
+                                                        <div class="grid-img">
+                                                            <img width="300px"src="./assets/Skinny Latte.jpg" alt="" srcset="">
+                                                        </div>
                                                     </td>
                                                 </tr>
                                             </tbody>
