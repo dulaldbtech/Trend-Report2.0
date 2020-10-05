@@ -30,18 +30,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: aqua;
+            background-color: #EE7100;
             float: right;
         }
         #banner {
-            background-image: url('./assets/Crème\ Brulee\ Latte.jpg');
+            background-image: url('./assets/banner@2x.png');
             background-repeat: no-repeat;
             background-size: cover;
             border-bottom-left-radius: 50px;
             height: 300px;
         }
-        #banner-text {
-            background-color: #3f3333;
+        #banner-text-bg {
+            background-color: #EE7100;
             color: #ffffff;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
@@ -52,6 +52,15 @@
             padding: 20px 0 0 40px;
             position: relative;
             top: 230px;
+        }
+        #banner-text {
+            position: absolute;
+            top: 360px;
+            font-size: 24px;
+            padding: 12px 0 0 40px;
+            font-weight: bold;
+            z-index: 1;
+            color: #ffffff;
         }
         .body-text {
             font-family: Arial, Helvetica, sans-serif;
@@ -72,7 +81,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: aqua;
+            background-color: #EE7100;
             font-size: 18px;
         }
         .speaker-name {
@@ -81,10 +90,30 @@
             color: #6a6a6a;
         }
         .grid-img img {
-            border: 1px solid #3f3333;
+            border: 1px solid #ECE68A;
             -webkit-box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
             -moz-box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
             box-shadow: 2px 4px 6px 0px rgba(92,91,86,1);
+        }
+        #collage-cover {
+            background-image: url('/assets/collage@2x.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 798px;
+        }
+        #date-time {
+            width: 370px;
+            margin: 0 auto;
+        }
+        #banner-sticker {
+            background-image: url(./assets/banner-sticker@2x.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 220px;
+            width: 209px;
+            position: absolute;
+            top: 82px;
+            right: 326px;
         }
     </style>
 </head>
@@ -127,8 +156,14 @@
                                                 <tr>
                                                     <td>
                                                         <div id="banner">
+                                                            <div id="banner-sticker">
+
+                                                            </div>
                                                             <div id="banner-text">
-                                                                Trends in Vegan Beverages
+                                                                Join the webinar
+                                                            </div>
+                                                            <div id="banner-text-bg">
+                                                                
                                                             </div>
                                                         </div>
                                                     </td>
@@ -157,8 +192,8 @@
                                                     <td>
                                                         <div id="date-time">
                                                             <h2>Date: <span>Thrusday, 19<sup>th</sup> November</span></h2>
-                                                            <h2>Time: <span>Thrusday, 19<sup>th</sup> November</span></h2>
-                                                            <h2>Duration: <span>Thrusday, 19<sup>th</sup> November</span></h2>
+                                                            <h2>Time: <span>9.00 CET/16.00 ICT<span></span></h2>
+                                                            <h2>Duration: <span>45 minutes</span></h2>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -171,8 +206,12 @@
                                                     <td>
                                                         <a href="">
                                                             <center>
-                                                                <div id="reg-cta">Register for the webinar</div>
-                                                                <p>Watch recorded video</p>
+                                                                <a href="">
+                                                                    <div id="reg-cta">Register for the webinar</div>
+                                                                </a>
+                                                                <a href="">
+                                                                    <p>Watch recorded video</p>
+                                                                </a>
                                                             </center>
                                                         </a>
                                                     </td>
@@ -278,11 +317,9 @@
                                                         <div class="spaekers-img"></div>
                                                     </td>
                                                     <td>
-                                                        <div class="speaker-name">Tracy Frotu</div>
+                                                        <div class="speaker-name">Suzanne van den Eshof</div>
                                                         <p class="body-text">
-                                                            FrieslandCampina Ingredients Food & Beverages’ foodservice guru. Tracy holds a BS Restaurant and Hotel Administration
-                                                            from the University of the Philippines and a Masters in Business Administration from Ateneo Graduate School of Business
-                                                            and has over 20 years of experience.
+                                                            Devoted foodie and trend-watcher at FrieslandCampina Ingredients Food & Beverages. Suzanne has a Masters degree in Industrial Design Engineering and has worked in B2B, B2C and Durables Marketing for 14 years.
                                                         </p>
                                                     </td>
                                                 </tr>
@@ -291,11 +328,9 @@
                                                         <div class="spaekers-img"></div>
                                                     </td>
                                                     <td>
-                                                        <div class="speaker-name">Tracy Frotu</div>
+                                                        <div class="speaker-name">Irene Belt</div>
                                                         <p class="body-text">
-                                                            FrieslandCampina Ingredients Food & Beverages’ foodservice guru. Tracy holds a BS Restaurant and Hotel Administration
-                                                            from the University of the Philippines and a Masters in Business Administration from Ateneo Graduate School of Business
-                                                            and has over 20 years of experience.
+                                                            Friesland Campina Ingredients Food & Beverages’ Business Intelligence expert, and collector, curator and communicator of all things trend-related. Irene is responsible for our annual trend reports, and passionate about the insights they contain.
                                                         </p>
                                                     </td>
                                                 </tr>
