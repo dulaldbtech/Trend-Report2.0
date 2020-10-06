@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-3-Trend Report</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        #register-btn {
+            width: 220px;
+            height: 40px;
+            border-radius: 50px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EE7100;
+            float: right;
+        }
+
+        #banner {
+            background-image: url('./assets/banner@2x.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 50px;
+            height: 254px;
+            margin-left: 26px;
+        }
+
+        #banner-text-bg {
+            background-color: #C2C2C2;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            opacity: 0.6;
+            height: 70px;
+            padding: 20px 0 0 40px;
+            position: relative;
+            top: 164px;
+        }
+
+        #banner-text {
+            position: absolute;
+            top: 292px;
+            font-size: 24px;
+            padding: 12px 0 0 40px;
+            font-weight: bold;
+            z-index: 1;
+            color: #ffffff;
+            line-height: 32px;
+        }
+
+        .body-text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6d6d6d;
+            margin-left: 36px;
+        }
+
+        .body-text-heading {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 36px;
+        }
+
+        #reg-cta {
+            width: 320px;
+            height: 60px;
+            border-radius: 50px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EE7100;
+            font-size: 18px;
+        }
+
+        .speaker-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #6a6a6a;
+        }
+
+        .grid-img img {
+            border: 1px solid #ECE68A;
+            -webkit-box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+            -moz-box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+            box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+        }
+
+        #collage-cover {
+            background-image: url('/assets/collage@2x.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 798px;
+        }
+
+        #date-time {
+            width: 370px;
+            margin: 0 auto;
+        }
+
+        #box-img {
+            background-image: url(./assets/Group\ 18@2x.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 230px;
+            width: 450px;
+            margin: 0 auto;
+        }
+
+        #box-img-txt {
+            width: 370px;
+            margin: 0 auto;
+            padding-top: 25px;
+            color: #ffffff;
+        }
+
+        #conscious-img {
+            background-image: url(./assets/Conscious-indulgene-img@2x.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 302px;
+            width: 203px;
+            margin-left: 36px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .icon-float {
+            display: inline-block;
+            float: left;
+        }
+    </style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"
+    style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100%;">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" id="backgroundTable"
+            style="margin: 0;padding: 0;background-color: #fefefe;height: 100%;width: 100%;" width="100%">
+            <tbody>
+                <tr>
+                    <td align="center" style="border-collapse: collapse;" valign="top">
+                        <table border="0" cellpadding="10" cellspacing="0" id="templatePreheader"
+                            style="background-color: #fefefe;" width="520">
+                            <tbody>
+                                <tr>
+                                    <td class="preheaderContent" style="border-collapse: collapse;" valign="top">
+                                        <!-- Header -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="border-collapse: collapse;" valign="top">
+                                                        <div id="logo">
+                                                            <img width="130px" src="./assets/logo.jpg"
+                                                                alt="FrieslandCampina Logo">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <a href="">
+                                                            <div id="register-btn">
+                                                                Register for the webinar
+                                                            </div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Banner Image -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div id="banner">
+                                                            <div id="banner-sticker">
+
+                                                            </div>
+                                                            <div id="banner-text">
+                                                                Final call to register for the 2021 <br/> '<span style="color: #EE7100;">Trends</span>
+                                                                <span style="color: #9CC414;">in Tasty</span> <span style="color: #EE7100;">Treats</span>' - webinar!
+                                                            </div>
+                                                            <div id="banner-text-bg">
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Intro Content -->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text-heading">Dear X</p>
+                                                        <p class="body-text">Can you afford to miss the opportunity to gain insights into the latest trends set to dominate consumer choices in food
+                                                        and beverages?</p>
+                                                        <p class="body-text">Register now for our webinar where we’ll be unveiling our ‘Trends in Tasty Treats’-report.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Date-Time -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div id="box-img">
+                                                            <div id="box-img-txt">
+                                                                <h2>Date:
+                                                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thursday,
+                                                                        19<sup>th</sup> November</span></h2>
+
+                                                                <h2>Time:
+                                                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00
+                                                                        CET/16:00 ICT</span></h2>
+
+                                                                <h2>Duration: <span>&nbsp;&nbsp;45 minutes</span></h2>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- CTAs -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="">
+                                                            <center>
+                                                                <div id="reg-cta"><a href=""><span
+                                                                            style="font-size:16px;"><strong>Register for
+                                                                                the webinar</strong></span><br>
+                                                                        <span style="font-size:12px;">Or watch the
+                                                                            recording </span></a></div>
+                                                            </center>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Plant Section -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <h2 class="body-text-heading">Unique insights</h2>
+                                                        <div id="plant-bg">
+                                                            <p class="body-text">The report is the result of our detailed and comprehensive research using various tools, including our in-depth
+                                                                listening programme that monitors online chatter and AI to analyse online mentions and reveal consumers’ interests. The
+                                                                fresh insights and perspectives we bring as a result are unique to us, and not available anywhere else. We look forward
+                                                                to sharing them with you.</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                                                                    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div id="box-img">
+                                                                                                        <div id="box-img-txt">
+                                                                                                            <h2>Date:
+                                                                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thursday,
+                                                                                                                    19<sup>th</sup> November</span></h2>
+                                                                                    
+                                                                                                            <h2>Time:
+                                                                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00
+                                                                                                                    CET/16:00 ICT</span></h2>
+                                                                                    
+                                                                                                            <h2>Duration: <span>&nbsp;&nbsp;45 minutes</span></h2>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                            <!-- CTAs -->
+                                            <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="">
+                                                                <center>
+                                                                    <div id="reg-cta"><a href=""><span
+                                                                                style="font-size:16px;"><strong>Register for
+                                                                                    the webinar</strong></span><br>
+                                                                            <span style="font-size:12px;">Or watch the
+                                                                                recording </span></a></div>
+                                                                </center>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        <!-- Trend Report -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text">During the webinar, we’ll bring you tasty recipes that tap into the things we know consumers want:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <img class="icon-float" style="margin-bottom: 10px;" src="./assets/list-icon.png" alt="">
+                                                                <span class="body-text" style="margin-left: 10px;">Foods and drinks that boost immunity – especially in light of COVID-19</span>
+                                                            </li>
+                                                            <li style="clear: both;">
+                                                                <img class="icon-float" style="margin-bottom: 10px;" src="./assets/list-icon.png" alt="">
+                                                                <span class="body-text" style="margin-left: 10px;">Locally grown ingredients and reduced food miles</span>
+                                                            </li>
+                                                            <li style="clear: both;">
+                                                                <img class="icon-float" style="margin-bottom: 10px;" src="./assets/list-icon.png" alt="">
+                                                                <span class="body-text" style="margin-left: 10px;">Indulgence and experience – to the extreme!</span>
+                                                            </li>
+                                                            <li style="clear: both;">
+                                                                <img class="icon-float" style="margin-bottom: 10px;" src="./assets/list-icon.png" alt="">
+                                                                <span class="body-text" style="margin-left: 10px;">Low or no sugar, gluten-free and plant-based</span>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="body-text">Attend the webinar, and we’ll also send you your personal copy of the ‘Trends in Tasty Treats’ publication.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Speakers Heading -->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <h2 class="body-text-heading">Speakers...</h2>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="spaekers-img"></div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="speaker-name">Tracy Frotu</div>
+                                                        <p class="body-text" style="margin-left: 0;">
+                                                            FrieslandCampina Ingredients Food & Beverages’ foodservice
+                                                            guru. Tracy holds a BS Restaurant and Hotel Administration
+                                                            from the University of the Philippines and a Masters in
+                                                            Business Administration from Ateneo Graduate School of
+                                                            Business
+                                                            and has over 20 years of experience.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="spaekers-img"></div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="speaker-name">Suzanne van den Eshof</div>
+                                                        <p class="body-text" style="margin-left: 0;">
+                                                            Devoted foodie and trend-watcher at FrieslandCampina
+                                                            Ingredients Food & Beverages. Suzanne has a Masters degree
+                                                            in Industrial Design Engineering and has worked in B2B, B2C
+                                                            and Durables Marketing for 14 years.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="spaekers-img"></div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="speaker-name">Irene Belt</div>
+                                                        <p class="body-text" style="margin-left: 0;">
+                                                            Friesland Campina Ingredients Food & Beverages’ Business
+                                                            Intelligence expert, and collector, curator and communicator
+                                                            of all things trend-related. Irene is responsible for our
+                                                            annual trend reports, and passionate about the insights they
+                                                            contain.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Speakers Heading -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text">We look forward to seeing you at our
+                                                            webinar, packed full of trends and product concepts. Don’t
+                                                            miss out on this chance
+                                                            to gear up for 2021.</p>
+                                                        <p class="body-text">Your Frieslandcampina Ingredients Food &
+                                                            Beverages team</p>
+                                                        <p class="body-text">PS. Feel free to forward to forward this
+                                                            email to your colleagues and network.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+   
+</body>
+
+</html>
